@@ -1,4 +1,4 @@
-public class Item : ProductProtocol, Describable, Scannable, Presentable, Categorizable {
+public struct Item : ProductProtocol, Describable, Scannable, Presentable, Categorizable {
     public var make: String
     public var name: String
     public var description: String?

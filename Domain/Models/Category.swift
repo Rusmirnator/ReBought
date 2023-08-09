@@ -1,4 +1,4 @@
-public class Category : CategoryProtocol, Describable {
+public struct Category : CategoryProtocol, Describable {
     public var name: String
     public var description: String?
     

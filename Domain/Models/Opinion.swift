@@ -1,4 +1,4 @@
-public class Opinion : OpinionProtocol, Ratable, Presentable {
+public struct Opinion : OpinionProtocol, Ratable, Presentable {
     public var author: String
     public var rating: Int
     public var comment: String?
